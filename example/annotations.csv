@@ -1,0 +1,7 @@
+# 3-column format: Applies to ALL targets in the plot
+Common 1, 1, 15
+Common 2, 20, 30
+
+# 4-column format: Applies ONLY to specific targets
+EGF_CHIMERA1, Specific 1, 40, 50
+EGF_CHIMERA2, Specific 2, 35, 45
