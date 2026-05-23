@@ -35,4 +35,14 @@ options:
 ```
 
 ## Example
-Check the example folder.
+The example directory contain an MSA of multiple EGF sequences, with two mock chimeras.
+
+Move to the example directory and run:
+
+```fish
+plot_chimeras.py -i sequence_alignment.fasta -f annotations.csv -p EGF_HUMAN EGF_CAT EGF_PIG EGF_HORSE EGF_MOUSE EGF_DOG -t EGF_CHIMERA1 EGF_CHIMERA2 -o EGF_CHIMERA_sequence_maps.png
+```
+
+The map will be created for the specified targets using the given parental sequences. All other sequences in the MSA are ignored.
+
+You can create sequence specific or common annotations (see `annotation.csv` example).
