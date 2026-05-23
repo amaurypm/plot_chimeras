@@ -142,6 +142,7 @@ def main():
     parser.add_argument("-p", "--parentals", required=True, nargs='+', help="List of parental sequence IDs (space-separated)")
     parser.add_argument("-f", "--features", required=False, help="Optional CSV file with features")
     parser.add_argument("-o", "--output", required=False, default="combined_chimeras_map.png", help="Output PNG file path")
+    parser.add_argument('-v', '--version', action='version', version='1.0.0', help="Show program's version number and exit")
     
     args = parser.parse_args()
 
