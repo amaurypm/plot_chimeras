@@ -4,7 +4,7 @@ Generate combined chimeric protein sequence maps from an MSA.
 The segments are inferred by Dynamic Programming (Viterbi algorithm) to find the sequence of parental origins that minimizes the total number of segment switches (crossovers).
 
 ## Inputs
-* A multiple sequence alignment (MSA) in FASTA format (no '*' for stop codon) containing the target chimeric protein and the parental sequences (required).
+* A multiple sequence alignment (MSA) in FASTA format (no star symbol for stop codons) containing the target chimeric protein and the parental sequences (required).
 * An annotation file (in CSV) format containing general, or target specific annotations (optional).
 
 ## Output
